@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Serviços</title>
+        <meta name="description" content="Empresa do Ramo das TICs">
+        <meta name="keywords" content="Empresa, Tecnologia, Serviços, Projectos">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Sílvio da Gama">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/fonts/fontawesome-webfont.svg" type="text/css">
+        <link rel="icon" href="img/Oto.png">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <a href="index.html"><h1 class="logo"> Sílvio da Gama Tecnologias Lda</h1></a>
+            <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+            <nav class="menu">
+                <a class="btn-close"><i class="fa fa-times"></i></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Quem%20Somos.html">Quem somos</a></li>
+                    <li><a href="Projectos.html">Projectos</a>
+                        <ul>
+                            <li><a href="#"> Electrónica </a></li>
+                            <li><a href="#"> Informática </a></li>
+                            <li><a href="#"> Telecomunicações </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Serviços.html">Serviços</a>
+                        <ul>
+                            <li><a href="#"> HelpDesk </a></li>
+                            <li><a href="#"> CCTV </a></li>
+                            <li><a href="#"> Redes</a></li>
+                            <li><a href="#"> GPS </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner">
+            <div class="title">
+                <h2> Honrando Compromissos! </h2>
+                <h3> Consedendo o devido suporte para que sua empresa nunca pare de produzir! </h3>
+            </div>
+            <div class="buttons">
+                <button class="btn-cadastrar"> Cadastrar <i class="fa fa-arrow-circle-o-right"></i></button>
+                <button class="btn-sobre"> Sobre <i class="fa-question-circle"></i> </button>
+            </div>
+        </div>
+        <main class="servicos">
+            <article class="servico">
+                <a href="#"><img src="img/art11.jpg" alt="Informática"></a>
+                <div class="inner">
+                    <a href="#">Informática</a>
+                    <h4>Instalação de S.O. (para as plataformas Windows e Linux), Instalação e manutenção de Redes de Computadores.</h4>
+                    <p>Implícito, encontra-se o princípio de transferência de tecnologia a colaboradores da equipe do cliente, qualificando-os para o exercício de funções e actividades que requeiram perfil de liderança e conhecimento técnico...
+
+                    </p>
+                </div>
+            </article>
+            <article class="servico">
+                <a href="#"><img src="img/art2.jpg" alt="Segurança Electrónica"></a>
+                <div class="inner">
+                    <a href="#">Segurança Electrónica</a>
+                    <h4>Automação Residencial (Accionamento de cargas remotamente, Upgrade com nível ao IoT, etc); GPS; Segurança Electrónica (CFTV, Alarmes, etc).</h4>
+                    <p>Temos como desafio contínuo o desenvolvimento tecnológico, e por consequência, condição para a tão desejada competitividade empresarial e pessoal. Concedendo uma excelente oportunidade para recem-lincenciados no ramo da electrónica...
+                    </p>
+                </div>
+            </article>
+            <article class="servico">
+                <a href="#"><img src="img/art3.jpg" alt="Consulting"></a>
+                <div class="inner">
+                    <a href="#">Consulting</a>
+                    <h4>Pesquisa de serviços/produtos que o cliente possa necessitar; Análise de viabilidade de projectos.</h4>
+                    <p>Atividade de avaliação independente dirigida ao exame da adequação, eficiência e eficácia dos sistemas, processos e controles internos empresariais, bem como da própria qualidade do desempenho dos colaboradores envolvidos em relação às políticas, procedimentos e planos definidos pela direção...
+                    </p>
+                </div>
+            </article>
+        </main>
+        <!--NEWSLETTER -->
+        <section class="newsletter">
+            <h2> Inscreva-se agora! </h2>
+            <h3> Receba novidades por email </h3>
+            <form class="">
+                <input type="email" name="email" placeholder="Seu email">
+                <button> Cadastrar </button>
+            </form>
+        </section>
+        <!--RODAPÉ-->
+        <footer class="rodape">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/S%C3%ADlvio-da-Gama-Tecnologias-SU-Lda-1247149658641176/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+            </div>
+            <p class="copyright"> Copyright <i class="fa fa-copyright"></i> SGTECNOLOGIAS 2017. Todos os direitos reservados</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <script src="js/jquery-3.2.1.min.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <script>
+            $(".btn-menu").click(function (){
+                $(".menu").show();
+            });
+            $(".btn-close").click(function (){
+                $(".menu").hide();
+            });
+        </script>
+    </body>
+</html>
